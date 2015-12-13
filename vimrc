@@ -34,9 +34,9 @@ cnoremap <expr> %% expand('%:h').'/'
 nnoremap <leader>gd :w\|!clear && git diff<cr>
 
 " test
-noremap <leader>r :w\|!clear && py.test<cr>
+autocmd BufNewFile,BufRead *.py noremap <leader>r :w\|!clear && py.test<cr>
 
 " repl
-noremap <leader>c :w\|!clear && lein repl<cr>
-noremap <leader>i :w\!clear && ipython3<cr>
+autocmd BufNewFile,BufRead *.clj noremap <leader>i :w\|!clear && lein repl<cr>
+autocmd BufNewFile,BufRead *.py noremap <leader>i :w\|!clear && ipython3<cr>
 

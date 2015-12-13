@@ -14,8 +14,7 @@ set expandtab
 set relativenumber
 
 " leaders
-let mapleader=","
-let maplocalleader = "\\"
+let mapleader=" "
 
 " text editing
 noremap <leader>- ddp

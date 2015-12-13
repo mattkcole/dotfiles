@@ -21,6 +21,7 @@ noremap <leader>- ddp
 noremap <leader>_ ddkP
 inoremap <c-d> <esc>ddi
 nnoremap <leader>w :%s/\s\+$//g<cr>
+noremap <leader>wr :w<cr>
 
 " edit vimrc
 nnoremap <leader>ev :split $MYVIMRC<cr>

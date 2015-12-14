@@ -12,6 +12,7 @@ set shiftwidth=4
 set shiftround
 set expandtab
 set relativenumber
+set ttimeoutlen=50
 
 " leaders
 let mapleader=" "
@@ -22,6 +23,7 @@ noremap <leader>_ ddkP
 inoremap <c-d> <esc>ddi
 nnoremap <leader>w :%s/\s\+$//g<cr>
 noremap <leader>wr :w<cr>
+noremap <leader>wq :wq<cr>
 
 " edit vimrc
 nnoremap <leader>ev :split $MYVIMRC<cr>

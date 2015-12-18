@@ -40,5 +40,5 @@ autocmd BufNewFile,BufRead *.py noremap <leader>r :w\|!clear && py.test<cr>
 
 " repl
 autocmd BufNewFile,BufRead *.clj noremap <leader>i :w\|!clear && lein repl<cr>
-autocmd BufNewFile,BufRead *.py noremap <leader>i :w\|!clear && ipython3 % --i<cr>
+autocmd BufNewFile,BufRead *.py noremap <leader>i :w\|!clear && ipython3 -i -c 'import %:r'<cr>
 

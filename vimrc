@@ -24,6 +24,7 @@ inoremap <c-d> <esc>ddi
 nnoremap <leader>w :%s/\s\+$//g<cr>
 noremap <leader>wr :w<cr>
 noremap <leader>wq :wq<cr>
+noremap <leader>q :q<cr>
 
 " edit vimrc
 nnoremap <leader>ev :split $MYVIMRC<cr>
@@ -41,4 +42,10 @@ autocmd BufNewFile,BufRead *.py noremap <leader>r :w\|!clear && py.test<cr>
 " repl
 autocmd BufNewFile,BufRead *.clj noremap <leader>i :w\|!clear && lein repl<cr>
 autocmd BufNewFile,BufRead *.py noremap <leader>i :w\|!clear && ipython3 -i -c 'import %:r'<cr>
+
+" pane resizing
+nnoremap <leader>, 5<c-w><
+nnoremap <leader>. 5<c-w>>
+nnoremap <leader>- 5<c-w>-
+nnoremap <leader>= 5<c-w>+
 

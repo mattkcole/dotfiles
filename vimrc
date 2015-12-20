@@ -25,7 +25,7 @@ noremap <leader>wq :wq<cr>
 noremap <leader>q :q<cr>
 
 " edit vimrc
-nnoremap <leader>ev :split $MYVIMRC<cr>
+nnoremap <leader>ev :edit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
 " commandline

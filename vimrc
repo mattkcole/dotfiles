@@ -13,6 +13,7 @@ set shiftround
 set expandtab
 set relativenumber
 set ttimeoutlen=50
+set hlsearch
 
 " leaders
 let mapleader=" "
@@ -23,6 +24,7 @@ nnoremap <leader>w :%s/\s\+$//g<cr>
 noremap <leader>wr :w<cr>
 noremap <leader>wq :wq<cr>
 noremap <leader>q :q<cr>
+noremap <leader>c :nohl<cr><c-l>
 
 " edit vimrc
 nnoremap <leader>ev :edit $MYVIMRC<cr>

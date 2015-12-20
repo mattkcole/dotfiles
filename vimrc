@@ -18,8 +18,6 @@ set ttimeoutlen=50
 let mapleader=" "
 
 " text editing
-noremap <leader>- ddp
-noremap <leader>_ ddkP
 inoremap <c-d> <esc>ddi
 nnoremap <leader>w :%s/\s\+$//g<cr>
 noremap <leader>wr :w<cr>

@@ -23,8 +23,15 @@ inoremap <c-d> <esc>ddi
 nnoremap <leader>w :%s/\s\+$//g<cr>
 noremap <leader>wr :w<cr>
 noremap <leader>wq :wq<cr>
+noremap <leader>e :e 
+noremap <leader>h :sp 
+noremap <leader>v :vs 
 noremap <leader>q :q<cr>
 noremap <leader>c :nohl<cr><c-l>
+noremap <leader>sh :! 
+
+" navigation
+noremap <leader>t :NERDTreeToggle<cr>
 
 " edit vimrc
 nnoremap <leader>ev :edit $MYVIMRC<cr>
@@ -41,7 +48,7 @@ autocmd BufNewFile,BufRead *.py noremap <leader>r :w\|!clear && py.test --ignore
 
 " repl
 autocmd BufNewFile,BufRead *.clj noremap <leader>i :w\|!clear && lein repl<cr>
-autocmd BufNewFile,BufRead *.py noremap <leader>i :w\|!clear && ipython3 -i -c 'import %:r'<cr>
+autocmd BufNewFile,BufRead *.py noremap <leader>i :w\|!clear && ipython -i -c 'import %:r'<cr>
 
 " pane resizing
 nnoremap <leader>, 5<c-w><

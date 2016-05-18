@@ -14,13 +14,16 @@ set expandtab
 set relativenumber
 set ttimeoutlen=50
 set hlsearch
+set colorcolumn=80
+highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 " leaders
 let mapleader=" "
 
 " text editing
 inoremap <c-d> <esc>ddi
-nnoremap <leader>w :%s/\s\+$//g<cr>
+nnoremap <leader>s :%s/\s\+$//g<cr>
+nnoremap <leader>d :%s/  / /g<cr>
 noremap <leader>wr :w<cr>
 noremap <leader>wq :wq<cr>
 noremap <leader>e :e 

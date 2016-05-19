@@ -11,6 +11,7 @@ set tabstop=4
 set shiftwidth=4
 set shiftround
 set expandtab
+set number
 set relativenumber
 set ttimeoutlen=50
 set hlsearch

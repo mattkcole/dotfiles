@@ -1,12 +1,23 @@
-" enable pathogen plugins
-execute pathogen#infect()
+set nocompatible
+filetype off
 
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'kien/ctrlp.vim'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-fireplace'
+Plugin 'tpope/vim-commentary'
+Plugin 'vim-airline/vim-airline'
+
+call vundle#end()
 " syntax highlighting
-syntax on
 filetype plugin indent on
+syntax on
 
 " editing configuration
-set nocompatible
 set tabstop=4
 set shiftwidth=4
 set shiftround

@@ -11,6 +11,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fireplace'
 Plugin 'tpope/vim-commentary'
 Plugin 'vim-airline/vim-airline'
+Plugin 'vim-scripts/Vim-R-plugin'
 
 call vundle#end()
 " syntax highlighting

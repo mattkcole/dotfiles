@@ -19,6 +19,7 @@ filetype plugin indent on
 syntax on
 
 " editing configuration
+let vimrplugin_assign = 0
 set tabstop=4
 set shiftwidth=4
 set shiftround

@@ -1,6 +1,7 @@
 - clean: ['~']
 
 - link:
+    ~/.Xresources: Xresources
     ~/.ssh/config: ssh.config
     ~/.xinitrc: xinitrc
     ~/.vimrc: vimrc

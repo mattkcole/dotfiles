@@ -9,5 +9,6 @@
     ~/.vim: vim/
     ~/.tmux.conf: tmux.conf
     ~/.jupyter: jupyter/
-    ~/.config/mpd/mpd.conf: mpd.conf
+    ~/.mpdconf: mpdconf
+    ~/.ncmpcpp/config: ncmpcpp.config
 

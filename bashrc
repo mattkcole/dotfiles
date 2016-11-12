@@ -16,4 +16,6 @@ export PATH="$PATH:/home/noam/.gem/ruby/2.3.0/bin"
 export PATH="$PATH:/home/noam/.gem/ruby/2.3.0/gems"
 
 # hopkins vpn
-alias hopkins_vpn="openconnect --juniper vpn.jh.edu"
+alias hopkins_vpn="sudo openconnect --juniper vpn.jh.edu"
+alias forwarding_rambo='ssh -N -L 8892:localhost:8892 noam@rambo.isi.jhu.edu > /dev/null 2>&1 &'
+

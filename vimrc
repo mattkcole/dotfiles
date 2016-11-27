@@ -12,6 +12,7 @@ Plugin 'tpope/vim-fireplace'
 Plugin 'tpope/vim-commentary'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-scripts/Vim-R-plugin'
+Plugin 'lervag/vimtex'
 
 call vundle#end()
 " syntax highlighting
@@ -33,6 +34,7 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 " leaders
 let mapleader=" "
+let maplocalleader=" "
 
 " text editing
 inoremap <c-d> <esc>ddi

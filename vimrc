@@ -77,5 +77,5 @@ let g:syntastic_python_flake8_args="--max-line-length=100"
 let g:airline#extensions#syntastic#enabled=1
 
 " vimtex options
-let g:vimtex_echo_ignore_wait = 1
 let g:vimtex_latexmk_options = '-pdf -shell-escape -verbose -file-line-error -synctex=1 -interaction=nonstopmode'
+let g:vimtex_echo_ignore_wait = 1

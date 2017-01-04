@@ -6,9 +6,6 @@
     ~/.bashrc: bashrc
     ~/.Xresources: Xresources
     ~/.ssh/config: ssh.config
-    ~/.xinitrc: xinitrc
-    ~/.vimrc: vimrc
-    ~/.vim: vim/
     ~/.tmux.conf: tmux.conf
     ~/.jupyter: jupyter/
     ~/.mpdconf: mpdconf

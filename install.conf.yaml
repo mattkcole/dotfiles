@@ -1,6 +1,8 @@
 - clean: ['~']
 
 - link:
+    /usr/share/xsessions/xmonad.desktop: xmonad/xmonad.desktop
+    ~/.xmonad: xmonad/
     ~/.bashrc: bashrc
     ~/.Xresources: Xresources
     ~/.ssh/config: ssh.config

@@ -2,6 +2,7 @@
 
 - link:
     /usr/share/xsessions/xmonad.desktop: xmonad/xmonad.desktop
+    /usr/share/unity-greeter/custom_xmonad_badge.png: xmonad/images/custom_xmonad_badge.png
     ~/.xmonad: xmonad/
     ~/.bashrc: bashrc
     ~/.Xresources: Xresources

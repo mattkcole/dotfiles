@@ -320,6 +320,11 @@ you should place your code here."
 
   ;; Insert newlines at 80 characters
   (add-hook 'text-mode-hook 'turn-on-auto-fill)
+
+  ;; option to enable minted latex package
+  (add-hook 'TeX-mode-hook
+    (lambda ()
+      (setq TeX-command-extra-options "-shell-escape")))  
 )
 
 ;; Do not write anything past this comment. This is where Emacs will

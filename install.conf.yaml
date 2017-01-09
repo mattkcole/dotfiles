@@ -4,7 +4,7 @@
     /usr/share/xsessions/xmonad.desktop: xmonad/xmonad.desktop
     /usr/share/unity-greeter/custom_xmonad_badge.png: xmonad/images/custom_xmonad_badge.png
     ~/.xmonad: xmonad/
-    ~/.bashrc: bashrc
+    ~/.bash_profile: bash_profile
     ~/.Xresources: Xresources
     ~/.ssh/config: ssh.config
     ~/.tmux.conf: tmux.conf

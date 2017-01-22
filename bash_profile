@@ -1,6 +1,13 @@
 # added by Anaconda3 4.2.0 installer
 export PATH="/home/noam/code/anaconda3/bin:$PATH"
 
+# added by Anaconda3 4.2.0 installer
+export PATH="/home/noam/code/anaconda/bin:$PATH"
+alias use_python3='export PATH="/home/noam/code/anaconda/bin:$PATH"'
+
+# added by Anaconda2 4.2.0 installer
+alias use_python2='export PATH="/home/noam/code/anaconda2/bin:$PATH"'
+
 # ruby support
 export PATH="$PATH:/home/noam/.gem/ruby/2.3.0/bin"
 export PATH="$PATH:/home/noam/.gem/ruby/2.3.0/gems"

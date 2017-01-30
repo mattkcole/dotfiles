@@ -1,0 +1,17 @@
+n-s-f.github.io
+slow-fade
+bayes
+exercism-problems
+bbchat
+wavelet
+kaggle-twosigma
+dotfiles
+computing
+testthat-starter
+open-rothman
+mockery
+models
+reveal.js
+methods
+proctor
+theory

@@ -5,7 +5,6 @@ exercism-problems
 bbchat
 wavelet
 kaggle-twosigma
-dotfiles
 computing
 testthat-starter
 open-rothman

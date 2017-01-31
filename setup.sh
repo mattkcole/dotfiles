@@ -3,5 +3,5 @@
 ./install_skype.sh
 ./clone_repos.sh
 ./install_emacs.sh
+./install_elixir.sh
 mkdir downloads
-

@@ -23,13 +23,6 @@ xrdb ~/.Xresources
 # transparency support.
 xcompmgr -n &
 
-#
-# LOAD SCREEN BACKGROUNDS
-#
-
-# To set your backgrounds, run nitrogren /path/to/images
-nitrogen --restore &
-
 # Run the gnome-keyring-daemon to avoid issues you otherwise may encounter
 # when using gnome applications which expect access to the keyring, such
 # as Empathy. This prevents prompts you may otherwise get for invalid

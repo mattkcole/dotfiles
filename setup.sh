@@ -5,4 +5,5 @@ sudo ./install_dotfiles.sh
 ./clone_repos.sh
 ./install_emacs.sh
 ./install_elixir.sh
+./install_xmonad.sh
 mkdir downloads

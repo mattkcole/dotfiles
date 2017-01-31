@@ -1,11 +1,6 @@
-sudo apt install build-essential checkinstall
-sudo apt-get build-dep emacs24
-wget http://ftp.gnu.org/gnu/emacs/emacs-25.1.tar.xz
-tar -xf emacs-25.1.tar.xz
-cd emacs-25.1
-./configure
-make
-sudo checkinstall
-cd ..
+rm -rf ~/.emacs.d
+sudo add-apt-repository ppa:kelleyk/emacs
+sudo apt-get update
+sudo apt-get install emacs25
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 

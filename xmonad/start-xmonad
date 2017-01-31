@@ -17,18 +17,6 @@ export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 # Load X resources (fixes some font issues)
 xrdb ~/.Xresources
 
-# Start compositing to support transparency. You can omit this
-# if you prefer not to use any transparency, but it is likely to cause
-# ugly black fringing with some programs such as synapse that expect
-# transparency support.
-xcompmgr -n &
-
-# Run the gnome-keyring-daemon to avoid issues you otherwise may encounter
-# when using gnome applications which expect access to the keyring, such
-# as Empathy. This prevents prompts you may otherwise get for invalid
-# certificates and the like.
-gnome-keyring-daemon --start --components=gpg,pkcs11,secrets,ssh
-
 # Remap caps lock to left control. This is not strictly speaking
 # xmonad related, but it's handy if you're a vim user.
 setxkbmap -option 'ctrl:nocaps'

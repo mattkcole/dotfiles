@@ -5,7 +5,7 @@
     /usr/share/unity-greeter/custom_xmonad_badge.png: xmonad/images/custom_xmonad_badge.png
     ~/timeout.sh: timeout.sh
     ~/.xmonad: xmonad/
-    ~/.bash_profile: bash_profile
+    ~/.bashrc: bashrc
     ~/.Xresources: Xresources
     ~/.ssh/config: ssh.config
     ~/.tmux.conf: tmux.conf

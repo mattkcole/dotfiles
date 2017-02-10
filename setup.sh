@@ -1,3 +1,4 @@
+./install_packages.sh
 ./install_git.sh
 ./install_xmonad.sh
 sudo ./install_dotfiles.sh

@@ -7,4 +7,5 @@ sudo ./install_dotfiles.sh
 ./clone_repos.sh
 ./install_emacs.sh
 ./install_elixir.sh
+./install_ubuntu_packages.sh
 mkdir downloads

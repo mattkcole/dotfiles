@@ -116,14 +116,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# added by Anaconda3 4.2.0 installer
+# anaconda
 export PATH="/home/noam/code/anaconda/bin:$PATH"
-
-# added by Anaconda3 4.2.0 installer
 alias use_python3='export PATH="/home/noam/code/anaconda/bin:$PATH"'
-
-# added by Anaconda2 4.2.0 installer
 alias use_python2='export PATH="/home/noam/code/anaconda_python2/bin:$PATH"'
-
-# added by Anaconda2 4.2.0 installer
 alias use_pystan='export PATH="/home/noam/code/anaconda_pystan/bin:$PATH"'
+
+# battery capacity
+alias capacity="cat /sys/class/power_supply/BAT0/capacity"

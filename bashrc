@@ -124,3 +124,6 @@ alias use_pystan='export PATH="/home/noam/code/anaconda_pystan/bin:$PATH"'
 
 # battery capacity
 alias capacity="cat /sys/class/power_supply/BAT0/capacity"
+
+# hopkins vpn
+alias hopkins_vpn="/usr/bin/env LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/pulse /usr/local/pulse/pulseUi"

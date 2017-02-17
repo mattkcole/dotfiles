@@ -129,4 +129,4 @@ alias capacity="cat /sys/class/power_supply/BAT0/capacity"
 alias hopkins_vpn="/usr/bin/env LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/pulse /usr/local/pulse/pulseUi"
 
 # emacs server
-alias emacs='exec emacsclient --alternate-editor="" -c "$@" .'
+alias emacs='exec emacsclient --alternate-editor="" -c "$@"'

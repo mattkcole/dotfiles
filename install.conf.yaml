@@ -3,8 +3,9 @@
 - link:
     /usr/share/xsessions/xmonad.desktop: xmonad/xmonad.desktop
     /usr/share/unity-greeter/custom_xmonad_badge.png: xmonad/images/custom_xmonad_badge.png
+    ~/.xmonad/xmonad.hs: xmonad/xmonad.hs
+    ~/.xmonad/start-xmonad: xmonad/start-xmonad
     ~/timeout.sh: timeout.sh
-    ~/.xmonad: xmonad/
     ~/.bashrc: bashrc
     ~/.Xresources: Xresources
     ~/.ssh/config: ssh.config

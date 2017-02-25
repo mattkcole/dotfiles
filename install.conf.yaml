@@ -7,6 +7,7 @@
     ~/.xmonad/start-xmonad: xmonad/start-xmonad
     ~/timeout.sh: timeout.sh
     ~/.bashrc: bashrc
+    ~/.gitconfig: gitconfig
     ~/.Xresources: Xresources
     ~/.ssh/config: ssh.config
     ~/.tmux.conf: tmux.conf

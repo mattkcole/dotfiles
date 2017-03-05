@@ -8,4 +8,5 @@ sudo ./install_dotfiles.sh
 ./install_emacs.sh
 ./install_elixir.sh
 ./install_jupyter_kernels.sh
+./install_exercism.sh
 mkdir downloads

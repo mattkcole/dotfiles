@@ -13,9 +13,15 @@ cd dotfiles
 
 This will call all the relevant setup scripts.
 
-The result is that xmonad is set up, all dotfiles are installed,
-anaconda is installed, and the git repositories listed in
-repo\_names.txt are installed.
+This script currently installs:
+- xmonad
+- skype
+- spacemacs
+- anaconda w/ kernels
+- clones my github repos
+- elixir
+- exercism
+- possibly more
 
 NOTE: I'm currently installing three versions of anaconda - one for python2, one
 with the latest python3, and one that is a few versions old to get around a
